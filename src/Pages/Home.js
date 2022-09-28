@@ -17,8 +17,13 @@ function Home() {
         setColor(`#${rcolcor}`)
     }
 
+    const newFun=()=>{
+        
+    }
+
     const handleDownload = () => {
-        html2canvas(document.getElementById("dipu")).then(function (canvas) {
+        html2canvas(document.getElementById("dipu"))
+        .then(function (canvas) {
             // document.body.appendChild(canvas);
             let a = document.createElement("a");
             a.download = "mypic" + Math.floor(Math.random() * 20000) + ".png";
