@@ -59,7 +59,7 @@ function Home() {
                 {/* <img src={image} className='h-32' alt="" /> */}
                 <div>
                     <div className='flex justify-center mt-2'>
-                        <button className='border px-5 py-2 mx-2 my-1 bg-green-500 hover:bg-green-600 rounded-md shadow-2xl' onClick={handleChanageBg}>Change Color</button>
+                        <button className='border border-black font-semibold px-5 py-2 mx-2 my-1 bg-green-500 hover:bg-green-600 rounded-md shadow-2xl' onClick={handleChanageBg}>Change Color</button>
                         <button className='border px-5 py-2 mx-2 my-1 bg-indigo-400 rounded-md shadow-2xl' onClick={handleTextColor}>Text Color</button>
                     </div>
                     <div className='flex justify-center'>
